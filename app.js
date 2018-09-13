@@ -3,5 +3,15 @@ var studentList = {
     'id' : '122'
 }
 
-console.log(studentList.name);
-console.log(studentList[id]);
+
+
+
+const call = function(name,id){
+    studentList.name = name;
+    studentList['id'] = id;
+
+    console.log(studentList.name);
+    console.log(studentList['id']);
+}
+
+call('hi','bye');
